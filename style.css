@@ -1,0 +1,106 @@
+*{
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+body{
+    background: linear-gradient(to right,rgb(230, 230, 230) ,rgb(235, 240, 235) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    background-color: white;
+    padding: 4.2vh;
+    display: block;
+}
+
+h1{
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+}
+
+#email{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;   
+    height: 30px;
+}
+
+#email::placeholder{
+    font-size: large;
+    font-weight: 300;
+}
+
+#email:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#security-key{
+    margin-top: 17px;
+    margin-bottom: 60px;
+}
+
+#security-key > img{
+    margin-left: 4px;
+}
+
+#security-key > img:hover{
+    cursor: pointer;
+}
+
+#bton-cont{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    position: relative;
+}
+
+button{
+    background-color: rgb(80, 80, 190);
+    color: white;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    font-size: medium;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer{
+    width: 99%;
+    text-align: right;
+    position:absolute;
+    margin-top: 95vh;
+}
+
+footer a{
+    color: black;
+    font-size: small;
+    padding-right: 13px;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: white;
+    }
+    footer{
+        text-align: left;
+    }
+}
